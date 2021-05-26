@@ -1,0 +1,46 @@
+@import "src/colors";
+.header {
+  position: sticky;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  h1 {
+    font-size: 1.3em;
+    margin-left: 0.5rem;
+    margin-right: 1.0rem;
+  }
+  a {
+    margin-right: 1.0rem;
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+
+  @media (min-width: 768px) {
+    width: 750px;
+  }
+
+  @media (min-width: 992px) {
+    width: 970px;
+  }
+
+  @media (min-width: 1200px) {
+    width: 1170px;
+  }
+}
+
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 0.5rem;
+  background-color: $primary;
+  color: white;
+}

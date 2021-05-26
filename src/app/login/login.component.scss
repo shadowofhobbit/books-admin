@@ -1,0 +1,19 @@
+mat-card {
+  margin: auto;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-error {
+  color: red;
+}
+
+.register-text {
+  font-size: 0.9em;
+  a {
+    text-decoration: none;
+  }
+}
